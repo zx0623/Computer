@@ -1,0 +1,60 @@
+@import "common/common.less";
+
+.test01-wrap{
+   width: 100%;
+  .px2rem(height,100);
+  span{
+    color: orangered;
+  }
+  button{
+    display: block;
+    .px2rem(margin-top,30);
+    .px2rem( font-size, 24);
+    .px2rem(line-height,40);
+    .px2rem( height, 40);
+  }
+}
+
+.progress-wrap{
+  .px2rem(padding-left,100);
+  .px2rem(padding-right,100);
+  .flexbox();
+  .dash{
+    .flex(5);
+    .px2rem(line-height,20);
+    .px2rem(height,10);
+    border-bottom: 2px dashed #000;
+  }
+  .progress-dot{
+
+   text-align: center;
+   .dot{
+     margin:0 auto;
+      border-radius:50%;
+     .px2rem(width,20);
+     .px2rem(height,20);
+     .px2rem(line-height,20);
+      background-color: #48a3e2;
+     .px2rem(margin-bottom,10);
+   }
+    .dotF{
+      margin:0 auto;
+      border-radius:50%;
+      .px2rem(width,20);
+      .px2rem(height,20);
+      .px2rem(line-height,20);
+      background-color: #adaebb;
+      .px2rem(margin-bottom,10);
+    }
+
+ }
+}
+.span-wrap{
+  .px2rem(padding-left,80);
+  .px2rem(padding-right,70);
+  .flexbox();
+  text-align: center;
+  .align-items(center);
+  .justify-content(space-between);
+
+}
